@@ -14,11 +14,11 @@ DataApenChild(jsonData.data.slice(0, 9), sharch)
 
 if(sharch === true || sharch.length > 0){
     document.getElementById('error-hidden').classList.add('hidden')
-    document.getElementById('data-card').classList.remove('hidden')
+    document.getElementById('data-card','max-sm:hidden').classList.remove('hidden')
 }
 else if(sharch.length === 0 || sharch === false){
     document.getElementById('error-hidden').classList.remove('hidden')
-    document.getElementById('data-card').classList.add('hidden')
+    document.getElementById('data-card').classList.add('hidden','max-sm:hidden')
 } 
 }
 
